@@ -1,0 +1,2 @@
+# nitrobot
+Discord bot
