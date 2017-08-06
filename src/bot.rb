@@ -1,7 +1,9 @@
 # Gems
+::RBNACL_LIBSODIUM_GEM_LIB_PATH = "C:/Users/Toprak Koç/Desktop/Me/Heklering/gandalf-the-bot/nitrobot/libsodium.dll"
 require 'bundler/setup'
 require 'discordrb'
 require 'yaml'
+require 'httparty'
 
 # The main bot module.
 module Bot
