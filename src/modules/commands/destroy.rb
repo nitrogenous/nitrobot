@@ -2,12 +2,12 @@ module Bot
   module DiscordCommands
     # Responds with "Pong!".
     # This used to check if bot is alive
-    module Hello
+    module Ping
       extend Discordrb::Commands::CommandContainer
-      command :hello do |event, args|
-           event.send 'Hello World!'
-           puts args
-
+      command :kappastorm do |event|
+      m = event.send "Adamdır"
+      sleep(0.5)
+      m.edit "Kappastorm <3"
       end
     end
   end
