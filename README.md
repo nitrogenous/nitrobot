@@ -1,2 +1,2 @@
-# nitrobot
-Discord bot
+# Gandalf The Bot
+Bot 4 Discord
