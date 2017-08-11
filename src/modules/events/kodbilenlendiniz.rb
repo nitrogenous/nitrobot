@@ -11,21 +11,22 @@ module Bot
       message(content:"nbr") do |event|
           event.send "ii sndn nbr"
         end
-        message(content:"ii sndn nbr cnm") do |event|
+        message(content:"bnd ii") do |event|
             event.send "hm ok"
           end
           message(content:"❤") do |event|
-              event.send "<:hearts:344351725211353089>"
+              event.send ":hearts:"
             end
-              message(content:"avukat") do |event|
-                  event.send "G.tünüzü s.keriz <:smile:344579724850233358> -Avukat"
-                end
                 message(content:"nwlyer") do |event|
                     event.send "En iyi hocadır <3"
                   end
                   message(content:"kodbilen") do |event|
                       event.send "En iyi üstaddır <3"
                     end
-    end
+
+               end
+
+
+
   end
 end
