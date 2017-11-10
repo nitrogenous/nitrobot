@@ -15,7 +15,7 @@ module Bot
             event.send "hm ok"
           end
           message(content:"❤") do |event|
-              event.send ":hearts:"
+              event.send "❤"
             end
                 message(content:"nwlyer") do |event|
                     event.send "En iyi hocadır <3"
@@ -23,7 +23,15 @@ module Bot
                   message(content:"kodbilen") do |event|
                       event.send "En iyi üstaddır <3"
                     end
-
+                    message(content:"runo") do |event|
+                        event.send "Adamın dibidir en iyi oyuncudur ❤"
+                      end
+                      message(content:"Sa") do |event|
+                          event.send "As"
+                        end
+                        message(content:"sa") do |event|
+                            event.send "as"
+                          end
                end
 
 
